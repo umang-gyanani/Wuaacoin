@@ -15,19 +15,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>wuaacoin</title>
 </head>
 
-<body>
-     <header class="bg_linear min-vh-100 d-flex flex-column position-relative">
+<body class="">
+    <div class="position-relative">
+        <div id="box"><img src="./assets/image/svg/wuaacoin_logo.svg" alt="preloader" class="preloader_logo" />
+        </div>
+    </div>
+
+    <header class="bg_linear min-vh-100 d-flex flex-column position-relative ">
         <img src="./assets/image/png/header_left.png" alt="header_left" class="header_top_left_img">
         <nav class="navbar navbar-expand-lg container">
             <a class="navbar-brand" href="#">
                 <img src="./assets/image/png/nav_logo.png" alt="nav_logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><img class="w-100" src="./assets/image" /></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse  navbar-collapse d-lg-flex justify-content-lg-end" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 align-items-center gap-2 ">
@@ -40,11 +46,13 @@
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link icon_zoom" href="#"><img src="./assets/image/png/nav_discord.png" alt="nav_discord">
+                        <a class="nav-link icon_zoom" href="#"><img src="./assets/image/png/nav_twiter.png"
+                                alt="nav_discord">
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link icon_zoom" href="#"><img src="./assets/image/png/nav_discord.png" alt="nav_twitter">
+                        <a class="nav-link icon_zoom" href="#"><img src="./assets/image/png/nav_discord.png"
+                                alt="nav_twitter">
                         </a>
                     </li>
                     <li>
@@ -53,13 +61,14 @@
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link icon_zoom" href="#"><img src="./assets/image/png/nav_linkedin.png" alt="in_img">
+                        <a class="nav-link icon_zoom" href="#"><img src="./assets/image/png/nav_linkedin.png"
+                                alt="in_img">
                         </a>
                     </li>
                     <li class="dropdown">
-                        <a class="f_Montserrat fw-normal fs_sm text-white dropdown-toggle text-decoration-none" href="#" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false"><img src="./assets/image/png/nav_globel.png"
-                                alt="nav_globel">
+                        <a class="f_Montserrat fw-normal fs_sm text-white dropdown-toggle text-decoration-none" href="#"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false"><img
+                                src="./assets/image/png/nav_globel.png" alt="nav_globel">
                             Eng
                         </a>
                         <ul class="dropdown-menu">
@@ -70,22 +79,23 @@
                 </ul>
             </div>
         </nav>
-        <section class="flex-grow-1 d-flex position-relative z-3 ">
-            <div class="position-absolute size d-lg-block d-none">
-                <img class="w-100" src="./assets/image/png/group.png" alt="group" />
-                <img src="./assets/image/png/white_shdow.png" alt="layer"
-                    class="header_bottom_right_img d-lg-block d-none">
-    
-            </div>
+        <section class="flex-grow-1 d-flex position-relative">
+
+            <img src="./assets/image/png/group1.png" alt="group" class="size_img   w-100 position-absolute d-none d-lg-block">
+
+
+            <img src="./assets/image/png/white_shdow.png" alt="layer"
+                class="header_bottom_right_img d-lg-block d-none position-absolute ">
+
             <img src="./assets/image/png/nav_center_arrow.png" alt="nav_center_arrow"
                 class="header_center_arrow d-none d-lg-block position-absolute">
             <img src="./assets/image/png/header_shadow.png" alt="layer"
                 class="header_center_right_img d-none d-lg-block position-absolute">
             <div class="container  pt-lg-5 d-flex">
                 <div
-                    class="row py-lg-5 align-items-center justify-content-center position-relative z-1   justify-content-lg-between">
-                    <div class="col-10 col-lg-5 text-center text-lg-start pt-5">
-    
+                    class="row py-md-5 align-items-center justify-content-center position-relative z-1   justify-content-lg-between">
+                    <div class="col-10 col-lg-5 text-center text-lg-start py-5 my-5">
+
                         <h4 class="f_Montserrat fw-semibold fs_20 text-white mb-1 mt-5 pt-lg-5">Welcome to</h4>
                         <h3 class="f_Montserrat fw-bolder fs_65 text-white mb-1 ">The Future of <span
                                 class="text-nowrap">E-Commerce</span></h3>
@@ -97,7 +107,8 @@
                             and
                             purchases</p>
                         <div class="position-relative">
-                            <img src="./assets/image/png/header_btnarrow.png" alt="header_btn_arrow" class="header_btn_arrow">
+                            <img src="./assets/image/png/header_btnarrow.png" alt="header_btn_arrow"
+                                class="header_btn_arrow">
                             <a href="https://www.google.com" target="_blank"
                                 class="whitepaper_btn fc_orenge  text-decoration-none d-inline-block f_Montserrat fw-semibold fs_sm mb-3">How
                                 To Buy</a>
@@ -108,33 +119,31 @@
                     </div>
                     <div class=" col-10 col-sm-8 col-lg-6 pt-lg-0 pt-lg-5 mt-lg-5 ps-lg-5" data-aos="zoom-in">
                         <img src="./assets/image/png/header_img.png " alt="header_img"
-                            class="header_img  position-relative z-3 w-100  header_main  pt-lg-5 mt-5">
+                            class="header_img  position-relative z-5 w-100  header_main  pt-lg-5 mt-5">
                     </div>
                 </div>
             </div>
-    
+
         </section>
-    
-    </header> 
-     <section class="position-relative  project">
+
+    </header>
+    <section class="position-relative mt-lg-5 pt-lg-5 overflow-hidden ">
         <img src="./assets/image/png/project_shdow.png" alt="project_right-img" class="project_right_img">
-        <div class="container-lg ">
-            <div class="row align-items-center justify-content-center py-lg-5 my-lg-5">
-                <div class="col-lg-7 col-sm-8" data-aos="zoom-in" data-aos-easing="ease-in-sine">
-                    <div class="d-flex align-items-center justify-content-center">
+        <div class="container mt-lg-0 mt-5 pt-lg-0 pt-5 ">
+            <div class="row justify-content-center  align-items-center py-lg-5 my-lg-5">
+                <div class="col-lg-7 col-sm-8 " data-aos="zoom-in" data-aos-easing="ease-in-sine">
+                    <div class="d-flex align-items-center justify-content-center position-relative">
                         <img class="w-100" src="./assets/image/png/project_img.png" />
-                        <div class=" position-relative d-none d-md-block">
-                            <img src="./assets/image/png/project_center_img.png" alt="chart_center_img"
-                                class="chart_center_img  position-absolute">
-    
-                        </div>
+                        <img src="./assets/image/png/project_center_img.png" alt="chart_center_img"
+                            class=" max_w_181  chart_center_img  position-absolute">
+
                     </div>
                 </div>
-                <div class="col-lg-5 col-sm-8 " data-aos="fade-left" data-aos-easing="ease-in-sine">
+                <div class="col-lg-5 col-sm-8" data-aos="zoom-in" data-aos-easing="ease-in-sine">
                     <h4
-                        class="f_Montserrat fw_700 fs_50 text-black mb-3 pt-lg-0 pt-md-5 pt-3 text-center text-lg-start mt-lg-0 mt-4">
+                        class="f_Montserrat fw_700 fs_50 text-black mb-3  pt-lg-0 pt-md-5 pt-3 text-center text-lg-start mt-lg-0 mt-4">
                         Our Project</h4>
-                    <p class="f_Montserrat fw_400 fs_18 max_w_447 fc_gray">Wuaocoin is the first project in the TechFi
+                    <p class="f_Montserrat fw_400 fs_18 max_w_447 fc_gray ">Wuaocoin is the first project in the TechFi
                         category
                         that
                         allows users multiple options to have utility and usability in the ecosystem, its time to change
@@ -147,55 +156,71 @@
                         using crypto technology.</p>
                 </div>
             </div>
+
+        </div>
         </div>
     </section>
 
 
 
     <!-- benifites -->
- <section>
-        
- <div class="container my-5">
-            <div class="d-flex align-items-center justify-content-center">
-                <h1 class="f_montserrat fw_700 fs_50">Benefits</h1>
+
+    <section class=" py-md-4 py-0 my-0 overflow-hidden">
+        <div class="container position-relative pt-lg-5 mt-2 ">
+            <div data-aos="zoom-in">
+                <h3 class="f_Montserrat fw_700 fs_50 text-black text-center mb-5">Benefits</h3>
             </div>
-            <div class="row py-5 d-flex align-items-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="d-flex align-items-center flex-column justify-content-center">
-                        <img src="./assets/image/webp/benifits_1_image.webp" alt="benifits_1_image" class="w-100">
-                        <p class="f_montserrat fw_400 fs_18 fc_gray max_w_317 text-center ">Services, Products and
+            <img src="./assets/image/png/benifites_arrow.png" alt="benefit_arrow" class="benefit_arrow">
+            <div class="bubble_slider position-relative" data-aos="zoom-in">
+
+                <div class="px-2">
+                    <div class="my-lg-2 d-flex flex-column justify-content-center align-items-center">
+                        <img src="./assets/image/png/benifits_1_image.png" alt="benefit_1"
+                            class="bubble_theme h_280 w_290">
+                        <p class="f_Montserrat fw_400 fs_18 fc_gray max_w_317 text-center mt-4">Services,
+                            Products and
                             Community
                             All in one place!
                         </p>
                     </div>
-
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="d-flex align-items-center flex-column justify-content-center">
-
-                        <img src="./assets/image/webp/benifits_2_image.webp" alt="benifits_2_image" class="w-100">
-                        <p class="f_montserrat fw_400 fs_18 fc_gray max_w_272 text-center">Selling in crypto will no
-                            longer be complicated, it
-                            will be safe and reliable.</p>
+                <div class="px-2">
+                    <div class="my-lg-2 d-flex flex-column justify-content-center align-items-center">
+                        <img src="./assets/image/png/benifits_2_image.png" alt="benefit_2" class="bubble_theme h_280">
+                        <p class="f_Montserrat fw_400 fs_18 fc_gray max_w_272 text-center mt-4">Selling in
+                            crypto will no
+                            longer be complicated, it will be safe and reliable.
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="d-flex align-items-center flex-column justify-content-center">
-                        <img src="./assets/image/webp/benifits_3_image.webp" alt="benifits_3_image" class="w-100">
-                        <p class="f_montserrat fw_400 fs_18 fc_gray max_w_288 text-center">Buying and getting a real
-                            discount is possible? Join
-                            and check it out.</p>
+                <div class="px-2">
+                    <div class="my-lg-2 d-flex flex-column justify-content-center align-items-center">
+                        <img src="./assets/image/png/benifits_3_image.png" alt="benefit_3" class="bubble_theme h_280">
+                        <p class="f_Montserrat fw_400 fs_18 fc_gray max_w_288 text-center mt-4">Buying and
+                            getting a real
+                            discount is possible? Join and check it out.
+                        </p>
                     </div>
                 </div>
-
+                <div class="px-2">
+                    <div class="my-lg-2 d-flex flex-column justify-content-center align-items-center">
+                        <img src="./assets/image/png/benifits_2_image.png" alt="benefit_1" class="bubble_theme h_280">
+                        <p class="f_Montserrat fw_400 fs_18 fc_gray max_w_272 text-center mt-4">Selling in
+                            crypto will no
+                            longer be complicated, it will be safe and reliable.
+                        </p>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
 
-        </div> 
-    </section> 
-    <section class="whitepaper_bg ">
+    <!-- whitepaper -->
+    <section class="whitepaper_bg overflow-hidden ">
         <div class="row ">
             <div class="col-lg-4">
-                <img src="./assets/image/webp/whitepaper_left.webp" alt="whitepaper_left" class="w-100 mb-5 ">
+                <img src="./assets/image/webp/whitepaper_left.webp" alt="whitepaper_left"
+                    class="w-100 mb-5 white_left_img ">
 
             </div>
             <div class="col-lg-4">
@@ -209,7 +234,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <img src="./assets/image/webp/whitepaper_right.webp" alt="whitepaper_right" class="w-100 ">
+                <img src="./assets/image/webp/whitepaper_right.webp" alt="whitepaper_right"
+                    class="w-100 white_right_img ">
 
             </div>
 
@@ -217,7 +243,9 @@
 
     </section>
     <!-- roadmap -->
-    <section>
+    <section class="position-relative mt-lg-5 mt-md-4 mt-3 pt-lg-5 overflow-hidden">
+        <img src="./assets/image/png/road_leftshdow.png" alt="roadmap_left_shdow" class="roadmap_left">
+        <img src="./assets/image/png/roadmap_arrow.png" alt="roadmap_arrow" class="roadmap_arrow">
         <div class="d-flex align-items-center justify-content-center flex-column my-5">
             <h1 class="f_montserrat fw_700 fs_50">RoadMap</h1>
             <p class="f_montserrat fw_400 fs_18 fc_gray max_w_672 text-center mt-4">Knowing our values, understanding
@@ -230,7 +258,7 @@
 
         </div>
         <div class="container-fluid position-relative pb-lg-5 mb-5" data-aos="zoom-in">
-            <img src="./assets/image/png/roadmap-right-side-img.png" alt="roadmap-right-side-img" class="roadmap_right">
+            <img src="./assets/image/png/road_rightshdow.png" alt="roadmap_right" class="roadmap_right">
             <div class="roadmap_slider py-3">
                 <div class="px-2">
                     <div class="card_01 roadmap">
@@ -287,31 +315,72 @@
         </div>
 
     </section>
-    /
-    <!-- TOKENOMICS -->
-
-    <section>
-
-        <div class="container">
-            <div class="d-flex align-items-center justify-content-center py-5">
-                <h1 class="f_montserrat fw_700 fs_50">Tokenomics</h1>
-            </div>
-            <div class="row justify-content-center position-relative">
-                <div class=" col-12 col-lg-8"><img src="./assets/image/webp/tokenomics_image.webp"
-                        alt="tokenomics_image" class="max_w_734 w-100">
-                    <P class="position-absolute team f_montserrat fw_700 fs_20 d-none d-lg-block">Team</P>
-                    <p class="position-absolute buyers f_montserrat fw_700 fs_20 d-none d-lg-block">Buyers/holders/<br>
-                        community</p>
-                    <p class="position-absolute founders f_montserrat fw_700 fs_20 d-none d-lg-block">Subdivided into<br> 5%
-                        Founders</p>
+    <!-- timer -->
+    <section class="whitepaper_bg py-5 overflow-hidden">
+        <div class="container py-5">
+            <h4 class="f_Montserrat fw_700 fs_30 text-white max_w_609 text-center mx-auto mb-5" data-aos="zoom-in">
+                Public
+                Sale 5% in ERC20 &
+                BEP20, 100% for the Community
+            </h4>
+            <div id="countdown-container" data-aos="zoom-in">
+                <div>
+                    <div id="days">0</div>
+                    <p class="f_Montserrat fw_500 fs_18 text-white text-center mt-1">Days</p>
+                </div>
+                <p class="f_Montserrat fw_400 fs_50 text-white mb-5 mx-1">:</p>
+                <div>
+                    <div id="hours">0</div>
+                    <p class="f_Montserrat fw_500 fs_18 text-white text-center mt-1">Hours</p>
+                </div>
+                <p class="f_Montserrat fw_400 fs_50 text-white mb-5 mx-1">:</p>
+                <div>
+                    <div id="minutes">0</div>
+                    <p class="f_Montserrat fw_500 fs_18 text-white text-center mt-1">Minute</p>
+                </div>
+                <p class="f_Montserrat fw_400 fs_50 text-white mb-5 mx-1">:</p>
+                <div>
+                    <div id="seconds">0</div>
+                    <p class="f_Montserrat fw_500 fs_18 text-white text-center mt-1">Second</p>
                 </div>
             </div>
-
-            <div>
+            <div class="text-center mt-lg-5 mt-md-4 mt-3" data-aos="zoom-in">
+                <a href=""
+                    class="whitepaper_btn f_Montserrat text-decoration-none fw_600 fs_16 fc_orenge  d-inline-block">BUY
+                    WUAO</a>
             </div>
+    </section>
 
+    <!-- TOKENOMICS -->
+    <section class="position-relative py-lg-5 py-md-4 py-3 my-3">
+        <img src="./assets/image/png/toko_left_shdow.png" alt="tokenomics_left_img" class="tokenomics_left_img position-absolute">
+        <img src="./assets/image/png/toko_right_shdow.png" alt="tokenomics_right_img" class="tokenomics_right_img position-absolute">
+        <img src="./assets/image/png/toko_arrow.png" alt="tokenomics_arrow" class="tokenomics_arrow">
+
+
+
+    <div class="container overflow-hidden">
+        <div class="d-flex align-items-center justify-content-center py-5 ">
+            <h1 class="f_montserrat fw_700 fs_50">Tokenomics</h1>
         </div>
-    </section>/
+        <div class="row justify-content-center position-relative">
+            <div class=" col-12 col-lg-8"><img src="./assets/image/webp/tokenomics_image.webp" alt="tokenomics_image"
+                    class="max_w_734 w-100">
+                <P class="position-absolute team f_montserrat fw_700 fs_20 d-none d-lg-block">Team</P>
+                <p class="position-absolute buyers f_montserrat fw_700 fs_20 d-none d-lg-block">Buyers/holders/<br>
+                    community</p>
+                <p class="position-absolute founders f_montserrat fw_700 fs_20 d-none d-lg-block">Subdivided
+                    into<br> 5%
+                    Founders</p>
+                <p class="position-absolute workers f_montserrat fw_700 fs_20 d-none d-lg-block">Workers</p>
+            </div>
+        </div>
+
+        <div>
+        </div>
+
+    </div>
+    </section>
     <!-- partnership -->
     <section>
         <section class="partnership_bg py-5">
@@ -446,6 +515,14 @@
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./assets/javascript/slider.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        });
+    </script>
+
+    </script>
     <script>
         // Get the countdown container element
         const countdownContainer = document.getElementById("countdown-container");
@@ -533,7 +610,106 @@
                 }
             ]
         });
+        $('.roadmap_slider').slick({
+            dots: false,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 1280,
+                    settings: {
+                        slidesToShow: 5,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 1042,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                }
+            ]
+        });
+        // preloader
+        setTimeout(() => {
+            const box = document.getElementById("box");
+
+            box.style.display = "none";
+
+            window.scrollTo(0, 0);
+
+            document.body.classList.remove("overflow-hidden");
+        }, 2000);
+
+        $('.bubble_slider').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            arrows: false,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        centerMode: true,
+                        centerPadding: '60px',
+                        dots: true,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+
     </script>
+
+
+
 </body>
 
 </html>
