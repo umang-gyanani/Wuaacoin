@@ -373,17 +373,19 @@ img.white_left_img,
 
 .toko_right_img {
     position: absolute;
-    bottom: -260px;
-    right: -46px;
-}
-
-
-.tokenomics_right_img {
-    position: absolute;
-    bottom: 0;
+bottom: -250px;
     right: 0;
-    width: 15%;
+    }
+.toko_arrow{
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    -webkit-animation: 5s linear infinite normal none running arrow;
+        animation: 5s linear infinite normal none running arrow;
 }
+
+
+
 
 .team {
     top: 159px !important;
@@ -503,10 +505,22 @@ img.white_left_img,
     padding: 13px 23px;
     transition: all .3s linear;
 }
-
-.outline_btn:hover {
-    transform: translateY(-7px);
+.whitepaper_btn:hover{
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF !important;
+        border-radius: 40px;
+        padding: 13px 23px;
+        transition: all .3s linear;
+        background: #ff993c;
 }
+.outline_btn:hover{
+    background: #FFFFFF;
+    color: #FF983B !important;
+        border-radius: 40px;
+        padding: 11px 21px;
+        border: 2px solid #ffffff;
+}
+
 
 .header_center_right_img {
     position: absolute;
@@ -542,6 +556,14 @@ img.white_left_img,
 
 .max_w_672 {
     max-width: 672px;
+}
+.whitepaper_arrow{
+    position: absolute;
+bottom: -108px;
+    left: -261px;
+    -webkit-animation: 5s linear infinite normal none running arrow;
+        animation: 5s linear infinite normal none running arrow;
+    
 }
 
 
